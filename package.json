@@ -1,0 +1,25 @@
+{
+  "name": "eiffel",
+  "displayName": "Eiffel Lang",
+  "description": "Eiffel lang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "eiffel",
+      "aliases": ["Eiffel", "eiffel"],
+      "extensions": [".e"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "eiffel",
+      "scopeName": "main.e",
+      "path": "./syntaxes/Eiffel.plist"
+    }]
+  }
+}
