@@ -10,16 +10,28 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "eiffel",
-      "aliases": ["Eiffel", "eiffel"],
-      "extensions": [".e"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "eiffel",
-      "scopeName": "main.e",
-      "path": "./syntaxes/Eiffel.plist"
-    }]
+    "languages": [
+      {
+        "id": "eiffel",
+        "aliases": [
+          "Eiffel",
+          "eiffel"
+        ],
+        "extensions": [
+          ".e"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "eiffel",
+        "scopeName": "source.eiffel",
+        "path": "./syntaxes/Eiffel.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
   }
 }
