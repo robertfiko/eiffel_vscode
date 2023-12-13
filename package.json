@@ -1,7 +1,7 @@
 {
-  "name": "eiffel",
-  "displayName": "Eiffel Lang",
-  "description": "Eiffel lang",
+  "name": "eiffel-vscode",
+  "displayName": "Eiffel Syntax Highlighting",
+  "description": "Bringing Eiffel syntax highlighting to VS Code.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
