@@ -4,8 +4,13 @@
   "displayName": "Eiffel Syntax Highlighting",
   "description": "Bringing Eiffel syntax highlighting to VS Code.",
   "version": "0.0.1",
+  "publisher": "robertfiko",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Robert Fiko"
+  },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Programming Languages"

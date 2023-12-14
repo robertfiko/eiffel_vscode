@@ -2,6 +2,8 @@
 
 This extension is highly experimental and requires more testing and development. 
 
+Issues and pull requests are welcomed in the GitHub repository.
+
 Used resources:
 - TextMate grammar: https://github.com/textmate/eiffel.tmbundle/blob/master/Syntaxes/Eiffel.plist: `Permission to copy, use, modify, sell and distribute this
 software is granted. ` as it is stated in the README file of the repository.
