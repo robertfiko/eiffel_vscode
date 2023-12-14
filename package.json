@@ -3,7 +3,7 @@
   "repository": "https://github.com/robertfiko/eiffel_vscode",
   "displayName": "Eiffel Syntax Highlighting",
   "description": "Bringing Eiffel syntax highlighting to VS Code.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "robertfiko",
   "icon": "images/logo.png",
   "author": {
